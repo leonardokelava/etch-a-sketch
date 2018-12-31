@@ -8,7 +8,7 @@ newgrid.addEventListener('click', chooseSize);
 
 function chooseSize() {
 
-let fieldSize=prompt('What grid size do you want?', '');
+let fieldSize=prompt('Enter number 1-64: What grid size do you want?', '');
 console.log(fieldSize);   
 while(container.firstChild) {container.removeChild(container.firstChild)} ; 
   
